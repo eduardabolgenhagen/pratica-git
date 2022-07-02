@@ -23,7 +23,7 @@ public class Main {
     public static void jogar(Rio rio, Barco barco) throws Exception {
         System.out.println(rio.mostrar() +"\n" + barco.mostrar() +"\n------------------------------\n1 - Embarcar" +
                 "\n2 - Desembarcar" +
-                "\n3 - Atravessar");
+                "\n3 - Atravessar" + "Alteração para prática");
         int acao = sc.nextInt();
         if (acao == 1) {
             if (barco.passageiros.size() < 2) {
